@@ -1,5 +1,5 @@
 body {
-  padding: 40px;
+  padding: 10px;
   font-family: sans-serif;
 }
 
@@ -26,9 +26,6 @@ img {
 }
 
 @media screen and (min-width: 360px) {
-  body {
-    padding: 10px;
-  }
 
   .header__title {
     padding-top: 25px;
@@ -88,11 +85,6 @@ img {
     padding: 5px;
   }
 
-  .work__image {
-    box-sizing: border-box;
-    padding: 5px;
-  }
-
   address.flex__1 {
     width: 33%; order: 1;
   }
@@ -101,6 +93,31 @@ img {
   }
   address.flex__3 {
     width: 33%; order: 3
+  }
+
+  .work {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .work__image {
+    box-sizing: border-box;
+    padding: 5px;
+  }
+
+  section.flex__1 {
+    width: 100%;
+    order: 1;
+  }
+
+  section.flex__2 {
+    width: 100%;
+    order: 2;
+  }
+  section.flex__3 {
+    width: 100%;
+    order: 3;
   }
 }
 
